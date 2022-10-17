@@ -1,0 +1,263 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #282E33;
+  font-family: 'Roboto', sans-serif; 
+  /* 300 400 500 700 900 */
+
+}
+
+
+.nav-bar-container{
+  background-color: #313B43;
+  height: 63px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+.bi-gear-fill{
+  transform: rotate(0);
+}
+.rotate{
+  transform: rotate(200deg);
+}
+
+
+.time-bar{
+  height: 5px;
+  width: 100px;
+  background-color: #ED9F20;
+  position: absolute;
+}
+.time-indicator{
+  width: 30px;
+  height: 16px;
+  background-color: #ED9F20;
+  -webkit-box-shadow: 0px 3px 18px 6px rgba(0,0,0,0.15); 
+  box-shadow: 0px 2px 10px 6px rgba(0,0,0,0.15);
+
+  position: relative;
+  left: 99%;
+  bottom: 6px;
+  border-radius: 2px;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.time-indicator-text{
+  color: whitesmoke;
+  font-size: 12px;
+}
+
+.ticket{
+
+  width: 25px;
+  height: 25px;
+  margin: 0 40px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+}
+.ticket svg{
+  color: white;
+}
+
+
+.svgs {
+  margin-inline: 40px;
+  color:  rgb(102, 102, 102);
+}
+.svgs-clicked{
+  -webkit-box-shadow: 0px 3px 18px 6px rgba(0,0,0,0.15); 
+  box-shadow: 0px 2px 10px 6px rgba(0,0,0,0.15);
+  color: white;
+}
+
+.balance{
+  font-size: 15px;
+}
+.button-container{
+  text-align: center;
+  background-color: #282E33;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-three{
+  margin-bottom: 40px;
+}
+
+.first-three,
+.second-three {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+
+canvas {
+  display: block;
+}
+.choose-bet-even, .choose-bet-odd{
+  -webkit-box-shadow: 0px 3px 18px 6px rgba(0,0,0,0.15); 
+  box-shadow: 0px 2px 10px 6px rgba(0,0,0,0.15);
+}
+.odd-even{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.this-is-div{
+  background-color: rgb(63, 65, 206);
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: large;
+}
+.amount-butoon{
+  margin-bottom: 50px;
+  background-color: #282E33;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 0.2fr 1fr;
+  align-items: center;
+  -webkit-box-shadow: 0px 3px 18px 6px rgba(0,0,0,0.15); 
+  box-shadow: 0px 2px 10px 6px rgba(0,0,0,0.15);
+}
+.plus-button,
+.minus-button{
+  margin: 6px;
+  text-align: center;
+  color: #5e5e5e;
+}
+
+.amount, h2{
+  font-size: 22px;
+  text-align: center;
+  color: white;
+}
+.choose-bet{
+  border: none;
+  border-radius: 5px;
+  margin: 30px 10px;
+  color: white;
+  font-size: 22px;
+  
+}
+.choose-bet-odd{
+  padding: 15px;
+  background-color: #E64D44;
+}
+.choose-bet-even{
+  background-color: #4C97D5;
+}
+
+.bet-amount-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px;
+}
+
+.place-bet button{
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 19px 60px;
+  background-color: #63A95A;
+  color: white;
+  font-size: 22px;
+}
+
+.menu-list h2{
+  text-align: left;
+  margin: 10px;
+}
+.menu-list h3{
+  text-align: left;
+  margin: 10px;
+  color: white;
+  font-size: 1rem;
+}
+
+.menu-list svg{
+  color: white;
+}
+.one-menu-list{
+  display: grid;
+  grid-template-columns: 0.25fr 1fr 0.25fr;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.withdraw-icon{
+  background-color:#E64D44;
+}
+.deposit-icon{
+  background-color: #63A95A;
+}
+.draw-icon{
+  background-color: #7595FF;
+}
+.transaction-icon{
+  background-color: #7595FF;
+}
+.sound-icon{
+  background-image: linear-gradient(#69c989, #4a865e);
+}
+.bet-icon{
+  background-color: #ED9F20;
+}
+.bet-amount{
+  margin-right: 30px;
+}
+.bet-amount h2{
+  color: #63A95A;
+}
+
+
+.all-icons{
+    
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #ED9F20;
+}
+
+.all-icons-menu
+{    
+  margin: 10px;
+  width: 23x;
+  height: 23px;
+  border-radius: 5px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-hide,
+.menu-visible{
+  position: absolute;
+  top: 57px;
+  background: #313B43;
+  height: calc(100%);
+}
+.menu-hide{
+  
+  transition: left 0.3s ease;
+  left: -70%;
+  width: 262px;
+}
+.menu-visible{
+  transition: left 0.3s ease;
+  left: 0;
+  right: 115px;
+  width: 262px;
+  
+}
